@@ -14,7 +14,7 @@
     <name>uniway-backend</name>
     <description>Backend para aplicación UniWay - Foro Estudiantil</description>
     <properties>
-        <java.version>17</java.version>
+        <java.version>25</java.version>
     </properties>
     <dependencies>
         <!-- Spring Boot Starters -->

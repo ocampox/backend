@@ -1,7 +1,7 @@
 # ==============================================================
 # Stage 1 - Build: compila el proyecto con Maven
 # ==============================================================
-FROM maven:3.9-eclipse-temurin-17 AS build
+FROM maven:3.9-eclipse-temurin-25 AS build
 
 WORKDIR /app
 
@@ -17,7 +17,7 @@ RUN mvn clean package -DskipTests -B
 # ==============================================================
 # Stage 2 - Runtime: imagen mínima solo con el JAR compilado
 # ==============================================================
-FROM eclipse-temurin:17-jre-alpine
+FROM eclipse-temurin:25-jre-alpine
 
 WORKDIR /app
 
