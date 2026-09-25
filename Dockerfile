@@ -33,14 +33,6 @@ USER uniway
 # Puerto expuesto por Spring Boot
 EXPOSE 8080
 
-# Variables de entorno con valores por defecto (sobreescribir en producción)
-ENV SPRING_DATASOURCE_URL=jdbc:mysql://db:3306/uniway_db \
-    SPRING_DATASOURCE_USERNAME=root \
-    SPRING_DATASOURCE_PASSWORD= \
-    MAIL_USERNAME= \
-    MAIL_PASSWORD= \
-    JWT_SECRET=mySecretKey123456789012345678901234567890
-
 # Opciones de la JVM: límite de memoria y zona horaria
 ENTRYPOINT ["java", \
   "-Xms256m", "-Xmx512m", \
