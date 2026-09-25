@@ -5,7 +5,7 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>3.2.0</version>
+        <version>4.0.8</version>
         <relativePath/>
     </parent>
     <groupId>com.uniway</groupId>
@@ -14,7 +14,7 @@
     <name>uniway-backend</name>
     <description>Backend para aplicación UniWay - Foro Estudiantil</description>
     <properties>
-        <java.version>17</java.version>
+        <java.version>25</java.version>
     </properties>
     <dependencies>
         <!-- Spring Boot Starters -->
@@ -95,7 +95,7 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
-                <version>3.2.0</version> </plugin>
+                <version>4.0.8</version> </plugin>
         </plugins>
     </build>
 </project>
